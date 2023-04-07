@@ -8,7 +8,9 @@ const Navbar = () => {
     <>
       <div className="flex flex-col md:flex-row md:justify-start justify-center items-center py-2">
         <div className="logo mx-5">
-          <Image width={200} height={50} src="/logo.png" alt="" />
+          <Link href="/">
+            <Image width={200} height={50} src="/logo.png" alt="" />
+          </Link>
         </div>
         <div className="nav">
           <ul className="flex space-x-2 font-bold">
